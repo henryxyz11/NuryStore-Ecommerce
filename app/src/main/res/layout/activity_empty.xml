@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="20dp"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/ivEmptyStates"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="10sp"
+        android:src="@drawable/ic_apps_black_48dp" />
+
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="This page is under Development by nuryStore Please be patience and Shop now!."
+        android:textColor="#848484"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bAddNew1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorPrimary"
+        android:text="SHOP NOW"
+        android:textColor="@color/gen_white"
+        android:visibility="visible"
+        tools:text="@string/my_cart" />
+</LinearLayout>
